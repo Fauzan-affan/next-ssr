@@ -6,8 +6,8 @@ const Show = ({ show }) => {
   return (
     <>
       <div className={Styles.container}>
-        <Nav />
         <h1>{show.name}</h1>
+        <Nav />
         <p>{show.summary}</p>
         <img src={show.image.medium ? show.image.medium : (<h1 style={{color: "red"}}>Image not found :(</h1>)} alt="" />
       </div>

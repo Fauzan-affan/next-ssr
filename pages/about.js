@@ -1,3 +1,5 @@
+import fetch from "isomorphic-fetch"
+
 import styles from '../styles/Home.module.css'
 
 import Nav from "../components/Nav.js"
